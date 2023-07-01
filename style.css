@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1rem 10%;
+  margin: 0 auto;
+}
+.prand {
+  font-family: cursive;
+  font-size: 23px;
+  margin: 0 auto;
+  width: fit-content;
+}
+header {
+  background-color: #2e323f;
+  color: #e0e0e2;
+}
+header ul {
+  width: 100%;
+  list-style: none;
+}
+header li {
+  padding: 0.25rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+  width: fit-content;
+}
+header a {
+  text-decoration: none;
+  color: #e0e0e2;
+}
+header li:nth-child(5) {
+  background-color: #a59678;
+  border-radius: 1rem;
+  /* margin-left: 0.5rem; */
+}
+@media only screen and (min-width: 700px) {
+  .prand {
+    margin: 0px;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul {
+    display: flex;
+    width: 80%;
+  }
+  header li {
+    padding: 0.25rem 0rem;
+  }
+  header li:nth-child(5) {
+    margin-left: 0.5rem;
+    padding: 0.25rem 1rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  header li:nth-child(4) {
+    margin-left: 1rem;
+  }
+  header li:nth-child(5) {
+    margin-left: 0.5rem;
+  }
+  header li {
+    padding: 0.25rem 1rem;
+  }
+  header ul {
+    display: flex;
+    width: max-content;
+  }
+}
+.first {
+  display: flex;
+  align-items: end;
+  background-color: #3b4050;
+  padding: 5rem 10%;
+  flex-wrap: wrap;
+}
+.first div {
+  width: 100%;
+}
+.first h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.first h1 span {
+  color: #a59678;
+}
+.first div:nth-child(2) {
+  color: #e0e0e2;
+  font-size: larger;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.first button {
+  margin-top: 1rem;
+  background-color: #a59678;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  border: #a59678 2px solid;
+  padding: 0.5rem 1.5rem;
+}
+@media only screen and (min-width: 700px) {
+  .first h1 {
+    font-size: 2.6rem;
+  }
+  .first div {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .first h1 {
+    font-size: 4rem;
+  }
+}
+.second {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6f737f;
+  background-color: #e0e0e2;
+}
+.second h2 {
+  color: #a59678;
+}
+.second div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.second p {
+  width: 80%;
+  margin-left: 10%;
+}
+@media only screen and (min-width: 700px) {
+  .second {
+    display: flex;
+  }
+}
+.third {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6f737f;
+}
+.third h2 {
+  color: #a59678;
+}
+.third img {
+  width: 100%;
+}
+.third p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card {
+  background-color: #3b4050;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.card h3 {
+  color: #fff;
+}
+@media only screen and (min-width: 700px) {
+  .cards {
+    display: flex;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .cards p {
+    font-size: 1rem;
+  }
+  .third div:nth-child(0) p {
+    font-size: larger;
+  }
+  .third h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .third {
+    display: flex;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card h3 {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  background-color: #3b4050;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #fff;
+  margin: 2rem;
+}
+footer h3 {
+  color: #a59678;
+  padding-top: 1rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+footer p {
+  color: #6f737f;
+  margin-top: 1rem;
+}
+footer ul {
+  list-style: none;
+  color: #6f737f;
+}
+footer li {
+  margin-top: 1rem;
+}
+.dept {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+@media only screen and (min-width: 700px) {
+  footer h1 {
+    font-size: 2.4rem;
+  }
+  footer h3 {
+    margin: 0px;
+  }
+  .dept {
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+  }
+  .dept div {
+    width: 100%;
+  }
+  .dept div:nth-child(1) {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  footer h1 {
+    font-size: 3rem;
+  }
+}
